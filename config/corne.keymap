@@ -38,37 +38,37 @@
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <2 4>;
+            key-positions = <13 14>;
             timeout-ms = 30;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <9 7>;
+            key-positions = <21 22>;
             timeout-ms = 30;
         };
 
         left_square_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <2 3>;
+            key-positions = <14 15>;
             timeout-ms = 30;
         };
 
         right_square_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <8 9>;
+            key-positions = <21 20>;
             timeout-ms = 30;
         };
 
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <4 3>;
+            key-positions = <16 15>;
             timeout-ms = 30;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <7 8>;
+            key-positions = <19 20>;
             timeout-ms = 30;
         };
 
@@ -152,13 +152,13 @@
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <7 19>;
+            key-positions = <6 18>;
             timeout-ms = 30;
         };
 
         ampersand {
             bindings = <&kp AMPERSAND>;
-            key-positions = <9 21>;
+            key-positions = <7 19>;
         };
 
         asterisk {
@@ -175,6 +175,16 @@
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <15 27>;
+        };
+
+        semi-colon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <10 22>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <9 21>;
         };
     };
 
@@ -383,10 +393,10 @@
             //                    | ESC | SPC | TAB |   | ENT | BKSP | DEL |
 
             bindings = <
-&kp GRAVE             &kp Q             &kp W               &kp F           &kp P               &kp B        &kp J        &kp L                &kp U            &kp Y                &kp MINUS          &kp EQUAL
-&lt 4 ESCAPE          &mt LEFT_SHIFT A  &mt LEFT_CONTROL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G        &kp M        &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I  &mt RIGHT_SHIFT O  &kp SQT
-&kp NON_US_BACKSLASH  &kp Z             &kp X               &kp C           &kp D               &kp V        &kp K        &kp H                &kp COMMA        &kp DOT              &kp SLASH          &kp SEMICOLON
-                                                            &caps_word      &kp SPACE           &lt 1 TAB    &lt 2 ENTER  &kp BACKSPACE        &sk LEFT_SHIFT
+&kp GRAVE             &kp Q             &kp W               &kp F           &kp P               &kp B        &kp J           &kp L                &kp U            &kp Y                &kp SQT            &kp EQUAL
+&lt 4 ESCAPE          &mt LEFT_SHIFT A  &mt LEFT_CONTROL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G        &kp M           &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I  &mt RIGHT_SHIFT O  &kp ENTER
+&kp NON_US_BACKSLASH  &kp Z             &kp X               &kp C           &kp D               &kp V        &kp K           &kp H                &kp COMMA        &kp DOT              &kp SLASH          &kp SEMICOLON
+                                                            &caps_word      &kp SPACE           &lt 1 TAB    &sk LEFT_SHIFT  &kp BACKSPACE        &lt 2 DELETE
             >;
         };
 
