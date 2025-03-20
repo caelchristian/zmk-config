@@ -38,12 +38,12 @@
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <2 1>;
+            key-positions = <2 4>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <9 10>;
+            key-positions = <9 7>;
         };
 
         left_square_bracket {
@@ -68,32 +68,82 @@
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <28 27>;
+            key-positions = <16 28>;
         };
 
         equals {
             bindings = <&kp EQUAL>;
-            key-positions = <31 32>;
+            key-positions = <19 31>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <33 32>;
+            key-positions = <19 18>;
         };
 
         dash {
             bindings = <&kp MINUS>;
-            key-positions = <26 27>;
+            key-positions = <16 17>;
         };
 
         copy {
-            bindings = <&kp K_COPY>;
-            key-positions = <27 15>;
+            bindings = <&kp LG(C)>;
+            key-positions = <27 28>;
         };
 
         paste {
-            bindings = <&kp K_PASTE>;
-            key-positions = <16 28>;
+            bindings = <&kp LG(V)>;
+            key-positions = <29 28>;
+        };
+
+        less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <32 33>;
+        };
+
+        greater_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <33 34>;
+        };
+
+        exclaimation {
+            bindings = <&kp EXCL>;
+            key-positions = <1 13>;
+        };
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <14 2>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <15 3>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <16 4>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <7 19>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <8 20>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <9 21>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <10 22>;
         };
     };
 
@@ -320,19 +370,19 @@
 
         func+arrows {
             bindings = <
-&bt BT_PRV    &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN          &none     &kp PAGE_DOWN  &kp PG_UP     &none      &trans           &bt BT_CLR_ALL
-&bt BT_NXT    &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK           &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp RIGHT_SHIFT  &none
-&bt BT_SEL 0  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &none     &none          &none         &none      &none            &none
-                               &trans  &trans  &trans             &trans    &trans         &trans
+&bt BT_PRV    &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN          &none   &kp PAGE_DOWN   &kp UP_ARROW    &kp PAGE_UP  &trans  &bt BT_CLR_ALL
+&bt BT_NXT    &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK           &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT    &none   &none
+&bt BT_SEL 0  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &none   &none           &none           &none        &none   &none
+                               &trans  &trans  &trans             &trans  &trans          &trans
             >;
         };
 
         sym_hr {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH          &kp DOLLAR            &kp PERCENT    &kp LCTRL  &kp AMPERSAND          &kp ASTERISK       &none            &none     &kp DEL
-&trans     &kp MINUS        &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &none          &none      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp PLUS  &trans
-&trans     &none            &none           &none             &kp MINUS             &none          &none      &kp EQUAL              &none              &none            &none     &trans
-                                            &trans            &trans                &trans         &trans     &kp N0                 &kp PERIOD
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH          &kp DOLLAR            &none     &none   &kp PERCENT            &kp CARET          &kp AMPERSAND    &kp ASTERISK  &kp DEL
+&trans     &kp MINUS        &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &none     &none   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp PLUS      &trans
+&trans     &none            &none           &none             &kp MINUS             &none     &none   &kp EQUAL              &none              &none            &none         &trans
+                                            &trans            &trans                &trans    &trans  &kp N0                 &kp PERIOD
             >;
         };
 
