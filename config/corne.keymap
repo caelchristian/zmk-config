@@ -256,14 +256,14 @@
         shifted_comma: mod-morph_comma {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp COMMA>, <&kp SEMI>;
-
+            #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         shifted_period: mod-morph_period {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp DOT>, <&kp COLON>;
-
+            #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
