@@ -256,6 +256,7 @@
         shifted_comma: mod-morph_comma {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp COMMA>, <&kp SEMI>;
+
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -263,6 +264,7 @@
         shifted_period: mod-morph_period {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp DOT>, <&kp COLON>;
+
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -360,15 +362,6 @@
             #binding-cells = <0>;
             mods = <(MOD_RSFT)>;
         };
-
-        colon_semi: colon_semi {
-            compatible = "zmk,behavior-mod-morph";
-            label = "COLON_SEMI";
-            bindings = <&kp COLON>, <&kp SEMI>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_RSFT)>;
-        };
     };
 
     macros {
@@ -400,7 +393,7 @@
             bindings = <
 &kp GRAVE             &kp Q             &kp W               &kp F           &kp P               &kp B        &kp J            &kp L                &kp U            &kp Y                &kp SQT            &kp EQUAL
 &lt 2 ESCAPE          &mt LEFT_SHIFT A  &mt LEFT_CONTROL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G        &kp M            &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I  &mt RIGHT_SHIFT O  &kp ENTER
-&kp NON_US_BACKSLASH  &kp Z             &kp X               &kp C           &kp D               &kp V        &kp K            &kp H                &colon_semi      &shifted_period      &kp SLASH          &kp SEMICOLON
+&kp NON_US_BACKSLASH  &kp Z             &kp X               &kp C           &kp D               &kp V        &kp K            &kp H                &shifted_comma   &shifted_period      &kp SLASH          &kp SEMICOLON
                                                             &kp ESCAPE      &kp SPACE           &lt 1 TAB    &lt 2 BACKSPACE  &sk LEFT_SHIFT       &lt 2 DELETE
             >;
         };
