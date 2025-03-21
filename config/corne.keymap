@@ -74,13 +74,13 @@
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <16 28>;
+            key-positions = <28 27>;
             timeout-ms = <30>;
         };
 
         equals {
             bindings = <&kp EQUAL>;
-            key-positions = <19 31>;
+            key-positions = <31 32>;
             timeout-ms = <30>;
         };
 
@@ -98,13 +98,13 @@
 
         copy {
             bindings = <&kp LG(C)>;
-            key-positions = <27 28>;
+            key-positions = <27 15>;
             timeout-ms = <30>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
-            key-positions = <29 28>;
+            key-positions = <29 17>;
             timeout-ms = <30>;
         };
 
@@ -168,16 +168,9 @@
             timeout-ms = <30>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
-            key-positions = <20 32>;
-            timeout-ms = <30>;
-
-        };
-
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <15 27>;
+            key-positions = <30 31>;
             timeout-ms = <30>;
         };
 
@@ -195,7 +188,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <29 17>;
+            key-positions = <29 28>;
             timeout-ms = <30>;
         };
     };
@@ -406,7 +399,7 @@
 
             bindings = <
 &kp GRAVE             &kp Q             &kp W               &kp F           &kp P               &kp B        &kp J           &kp L                &kp U            &kp Y                &kp SQT            &kp EQUAL
-&caps_word            &mt LEFT_SHIFT A  &mt LEFT_CONTROL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G        &kp M           &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I  &mt RIGHT_SHIFT O  &kp ENTER
+&lt 2 ESCAPE          &mt LEFT_SHIFT A  &mt LEFT_CONTROL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G        &kp M           &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I  &mt RIGHT_SHIFT O  &kp ENTER
 &kp NON_US_BACKSLASH  &kp Z             &kp X               &kp C           &kp D               &kp V        &kp K           &kp H                &kp COMMA        &kp DOT              &kp SLASH          &kp SEMICOLON
                                                             &kp ESCAPE      &kp SPACE           &lt 1 TAB    &sk LEFT_SHIFT  &kp BACKSPACE        &lt 2 DELETE
             >;
