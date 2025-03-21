@@ -39,37 +39,37 @@
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <13 14>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <21 22>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
         };
 
         left_square_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <14 15>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
         };
 
         right_square_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <21 20>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
         };
 
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 15>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
-            timeout-ms = <30>;
+            timeout-ms = <20>;
         };
 
         underscore {
