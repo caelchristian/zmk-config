@@ -37,37 +37,37 @@
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <13 14>;
+            key-positions = <1 2>;
             timeout-ms = <20>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <21 22>;
+            key-positions = <9 10>;
             timeout-ms = <20>;
         };
 
         left_square_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <14 15>;
+            key-positions = <2 3>;
             timeout-ms = <20>;
         };
 
         right_square_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <21 20>;
+            key-positions = <8 9>;
             timeout-ms = <20>;
         };
 
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 15>;
+            key-positions = <3 4>;
             timeout-ms = <20>;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <19 20>;
+            key-positions = <7 8>;
             timeout-ms = <20>;
         };
 
