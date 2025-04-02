@@ -77,15 +77,15 @@
             timeout-ms = <30>;
         };
 
-        dash {
-            bindings = <&kp MINUS>;
-            key-positions = <16 17>;
-            timeout-ms = <30>;
-        };
-
         equals {
             bindings = <&kp EQUAL>;
             key-positions = <31 32>;
+            timeout-ms = <30>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <16 17>;
             timeout-ms = <30>;
         };
 
@@ -179,15 +179,15 @@
             timeout-ms = <30>;
         };
 
-        semi-colon {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <10 22>;
-            timeout-ms = <30>;
-        };
-
         colon {
             bindings = <&kp COLON>;
             key-positions = <9 21>;
+            timeout-ms = <30>;
+        };
+
+        semi-colon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <10 22>;
             timeout-ms = <30>;
         };
     };
