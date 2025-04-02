@@ -41,27 +41,27 @@
             timeout-ms = <20>;
         };
 
-        right_brace {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <9 10>;
-            timeout-ms = <20>;
-        };
-
         left_square_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <2 3>;
             timeout-ms = <20>;
         };
 
-        right_square_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <8 9>;
-            timeout-ms = <20>;
-        };
-
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <3 4>;
+            timeout-ms = <20>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <9 10>;
+            timeout-ms = <20>;
+        };
+
+        right_square_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <8 9>;
             timeout-ms = <20>;
         };
 
@@ -77,6 +77,12 @@
             timeout-ms = <30>;
         };
 
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <16 17>;
+            timeout-ms = <30>;
+        };
+
         equals {
             bindings = <&kp EQUAL>;
             key-positions = <31 32>;
@@ -89,9 +95,15 @@
             timeout-ms = <30>;
         };
 
-        dash {
-            bindings = <&kp MINUS>;
-            key-positions = <16 17>;
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <29 28>;
+            timeout-ms = <30>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <30 31>;
             timeout-ms = <30>;
         };
 
@@ -167,12 +179,6 @@
             timeout-ms = <30>;
         };
 
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <30 31>;
-            timeout-ms = <30>;
-        };
-
         semi-colon {
             bindings = <&kp SEMICOLON>;
             key-positions = <10 22>;
@@ -182,12 +188,6 @@
         colon {
             bindings = <&kp COLON>;
             key-positions = <9 21>;
-            timeout-ms = <30>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <29 28>;
             timeout-ms = <30>;
         };
     };
