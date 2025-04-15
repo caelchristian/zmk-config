@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
+ * Copyright (c) 3520 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
  */
@@ -38,37 +38,37 @@
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <1 2>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         left_square_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <2 3>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <3 4>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <9 10>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         right_square_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 9>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <7 8>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         underscore {
