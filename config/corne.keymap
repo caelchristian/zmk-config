@@ -391,10 +391,10 @@
             //                    | ESC | SPC | TAB |   | ENT | BKSP | DEL |
 
             bindings = <
-&kp GRAVE             &kp Q                &kp W                  &kp F              &kp P                  &kp B        &kp J           &kp L                   &kp U               &kp Y                   &kp MINUS             &kp EQUAL
-&kp ESCAPE            &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T  &kp G        &kp M           &hrm_r RIGHT_COMMAND N  &hrm_r RIGHT_ALT E  &hrm_r RIGHT_CONTROL I  &hrm_r RIGHT_SHIFT O  &kp SQT
-&kp NON_US_BACKSLASH  &kp Z                &kp X                  &kp C              &kp D                  &kp V        &kp K           &kp H                   &shifted_comma      &shifted_period         &kp SLASH             &kp K_PLAY_PAUSE
-                                                                  &lt 2 CAPSLOCK     &kp SPACE              &lt 1 TAB    &sk LEFT_SHIFT  &kp BACKSPACE           &kp ENTER
+&kp GRAVE             &kp Q                &kp W                  &kp F              &kp P                  &kp B        &kp J        &kp L                   &kp U               &kp Y                   &kp MINUS             &kp EQUAL
+&kp ESCAPE            &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T  &kp G        &kp M        &hrm_r RIGHT_COMMAND N  &hrm_r RIGHT_ALT E  &hrm_r RIGHT_CONTROL I  &hrm_r RIGHT_SHIFT O  &kp SQT
+&kp NON_US_BACKSLASH  &kp Z                &kp X                  &kp C              &kp D                  &kp V        &kp K        &kp H                   &shifted_comma      &shifted_period         &kp SLASH             &kp K_PLAY_PAUSE
+                                                                  &caps_word         &kp SPACE              &lt 1 TAB    &lt 2 ENTER  &sk LEFT_SHIFT          &kp BACKSPACE
             >;
         };
 
