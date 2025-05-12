@@ -259,6 +259,7 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <0>;
         };
 
         shifted_period: mod-morph_period {
