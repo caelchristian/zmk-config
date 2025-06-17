@@ -409,9 +409,9 @@
 
         func+arrows {
             bindings = <
-&bt BT_PRV    &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN          &none                 &kp PAGE_DOWN      &kp UP_ARROW      &kp PAGE_UP      &trans                &bt BT_CLR_ALL
-&bt BT_NXT    &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK           &kp C_BRIGHTNESS_INC  &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT        &kp RG(RS(NUMBER_4))  &none
-&bt BT_SEL 0  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP  &none                 &none
+&bt BT_PRV    &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN          &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp PG_UP      &none      &trans                &bt BT_CLR_ALL
+&bt BT_NXT    &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK           &kp LEFT              &kp DOWN           &kp UP_ARROW   &kp RIGHT  &kp RG(RS(NUMBER_4))  &none
+&bt BT_SEL 0  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &none      &none                 &none
                                &trans  &trans  &trans             &trans                &trans             &trans
             >;
         };
