@@ -384,7 +384,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
+        colmak-dh-base {
             // -----------------------------------------------------------------------------------------
             // |   `   |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  |  -   |
             // |cw_caps|  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  '   |
@@ -395,7 +395,7 @@
 &kp GRAVE       &kp Q                  &kp W              &kp F                  &kp P                &kp B        &kp J        &kp L                 &kp U                   &kp Y               &kp SEMICOLON          &kp EQUAL
 &kp ESCAPE      &hrm_l LEFT_CONTROL A  &hrm_l LEFT_ALT R  &hrm_l LEFT_COMMAND S  &hrm_l LEFT_SHIFT T  &kp G        &kp M        &hrm_r RIGHT_SHIFT N  &hrm_r RIGHT_COMMAND E  &hrm_r RIGHT_ALT I  &hrm_r LEFT_CONTROL O  &kp SQT
 &kp LEFT_SHIFT  &kp Z                  &kp X              &kp C                  &kp D                &kp V        &kp K        &kp H                 &kp COMMA               &kp PERIOD          &kp SLASH              &kp MINUS
-                                                          &lt 2 CAPSLOCK         &kp SPACE            &lt 1 TAB    &lt 2 ENTER  &kp BACKSPACE         &kp LS(LEFT_CONTROL)
+                                                          &to 0                  &kp SPACE            &lt 1 TAB    &lt 2 ENTER  &kp BACKSPACE         &kp LS(LEFT_CONTROL)
             >;
         };
 
@@ -417,6 +417,15 @@
             >;
         };
 
+        qwerty-base {
+            bindings = <
+&kp GRAVE       &kp Q                  &kp W           &kp E               &kp R             &kp T        &kp Y        &kp U              &kp I                 &kp O            &kp P                        &kp EQUAL
+&kp ESCAPE      &hrm_l LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_COMMAND D  &mt LEFT_SHIFT F  &kp G        &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_GUI K       &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z                  &kp X           &kp C               &kp V             &kp B        &kp N        &kp M              &kp COMMA             &kp DOT          &kp FSLH                     &kp MINUS
+                                                       &to 0               &kp SPACE         &lt 1 TAB    &lt 2 ENTER  &kp BACKSPACE      &kp LS(LEFT_CONTROL)
+            >;
+        };
+
         sym_hr {
             bindings = <
 &kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH          &kp DOLLAR            &none     &none   &kp PERCENT            &kp CARET          &kp AMPERSAND    &kp ASTERISK  &kp DEL
@@ -435,15 +444,6 @@
             >;
         };
 
-        qwerty {
-            bindings = <
-&trans  &kp Q  &kp W  &kp E   &kp R   &kp T     &kp Y   &kp U   &kp I      &kp O    &kp P     &to 0
-&trans  &kp A  &kp S  &kp D   &kp F   &kp G     &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X  &kp C   &kp V   &kp B     &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
-                      &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
         num {
             bindings = <
 &none  &none         &none         &none         &none         &none        &none         &none      &none   &none   &none   &none
@@ -459,7 +459,7 @@
 
         hyper {
             if-layers = <1 2>;
-            then-layer = <4>;
+            then-layer = <5>;
         };
     };
 };
