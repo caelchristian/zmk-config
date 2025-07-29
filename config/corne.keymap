@@ -115,7 +115,7 @@
 
         paste {
             bindings = <&kp LG(V)>;
-            key-positions = <29 17>;
+            key-positions = <16 28>;
             timeout-ms = <30>;
         };
 
@@ -182,13 +182,13 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <19 20 21>;
-            timeout-ms = <20>;
+            timeout-ms = <30>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <14 16 15>;
-            timeout-ms = <20>;
+            timeout-ms = <30>;
         };
     };
 
@@ -392,10 +392,10 @@
             //                    | ESC | SPC | TAB |   | ENT | BKSP | DEL |
 
             bindings = <
-&kp GRAVE   &kp Q  &kp W  &kp F              &kp P                  &kp B        &kp J        &kp L                   &kp U               &kp Y       &kp SEMICOLON  &kp BACKSPACE
-&kp ESCAPE  &kp A  &kp R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T  &kp G        &kp M        &hrm_r RIGHT_COMMAND N  &hrm_r RIGHT_ALT E  &kp I       &kp O          &kp SQT
-&caps_word  &kp Z  &kp X  &kp C              &kp D                  &kp V        &kp K        &kp H                   &kp COMMA           &kp PERIOD  &kp SLASH      &kp MINUS
-                          &kp LEFT_CONTROL   &kp SPACE              &lt 1 TAB    &lt 2 ENTER  &sk LEFT_SHIFT          &to 3
+&kp GRAVE   &kp Q             &kp W               &kp F              &kp P                  &kp B        &kp J        &kp L                   &kp U               &kp Y                &kp SEMICOLON      &kp BACKSPACE
+&kp ESCAPE  &mt LEFT_SHIFT A  &mt LEFT_CONTROL R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T  &kp G        &kp M        &hrm_r RIGHT_COMMAND N  &hrm_r RIGHT_ALT E  &mt I RIGHT_CONTROL  &mt RIGHT_SHIFT O  &kp SQT
+&caps_word  &kp Z             &kp X               &kp C              &kp D                  &kp V        &kp K        &kp H                   &kp COMMA           &kp PERIOD           &kp SLASH          &kp MINUS
+                                                  &kp LEFT_CONTROL   &kp SPACE              &lt 1 TAB    &lt 2 ENTER  &sk LEFT_SHIFT          &to 3
             >;
         };
 
