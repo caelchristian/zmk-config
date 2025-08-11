@@ -392,10 +392,10 @@
             //                    | ESC | SPC | TAB |   | ENT | BKSP | DEL |
 
             bindings = <
-&kp GRAVE   &kp Q                &kp W                  &kp F              &kp P                           &kp B        &kp J        &kp L                   &kp U               &kp Y                   &kp SEMICOLON         &kp EQUAL
-&kp ESCAPE  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T           &kp G        &kp M        &hrm_r RIGHT_COMMAND N  &hrm_r RIGHT_ALT E  &hrm_r I RIGHT_CONTROL  &hrm_r RIGHT_SHIFT O  &kp SQT
-&caps_word  &kp Z                &kp X                  &kp C              &kp D                           &kp V        &kp K        &kp H                   &kp COMMA           &kp PERIOD              &kp SLASH             &kp MINUS
-                                                        &kp LEFT_CONTROL   &mt LS(LC(LA(LEFT_GUI))) SPACE  &lt 1 TAB    &lt 2 ENTER  &sk LEFT_SHIFT          &kp BACKSPACE
+&kp GRAVE   &kp Q                  &kp W              &kp F                  &kp P                           &kp B        &kp J        &kp L                 &kp U                   &kp Y               &kp SEMICOLON          &kp EQUAL
+&kp ESCAPE  &hrm_l LEFT_CONTROL A  &hrm_l LEFT_ALT R  &hrm_l LEFT_COMMAND S  &hrm_l LEFT_SHIFT T             &kp G        &kp M        &hrm_r RIGHT_SHIFT N  &hrm_r RIGHT_COMMAND E  &hrm_r RIGHT_ALT I  &hrm_r LEFT_CONTROL O  &kp SQT
+&caps_word  &kp Z                  &kp X              &kp C                  &kp D                           &kp V        &kp K        &kp H                 &kp COMMA               &kp PERIOD          &kp SLASH              &kp MINUS
+                                                      &kp LEFT_CONTROL       &mt LS(LC(LA(LEFT_GUI))) SPACE  &lt 1 TAB    &lt 2 ENTER  &kp BACKSPACE         &sk LEFT_SHIFT
             >;
         };
 
