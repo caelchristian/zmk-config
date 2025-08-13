@@ -392,10 +392,10 @@
             //                    | ESC | SPC | TAB |   | ENT | BKSP | DEL |
 
             bindings = <
-&kp GRAVE   &kp Q  &kp W  &kp F              &kp P                  &kp B        &kp J            &kp L                  &kp U              &kp Y       &kp SEMICOLON  &kp EQUAL
-&kp ESCAPE  &kp A  &kp R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T  &kp G        &kp M            &hrm_r LEFT_COMMAND N  &hrm_r LEFT_ALT E  &kp I       &kp O          &kp SQT
-&caps_word  &kp Z  &kp X  &kp C              &kp D                  &kp V        &kp K            &kp H                  &kp COMMA          &kp PERIOD  &kp SLASH      &kp MINUS
-                          &kp LEFT_CONTROL   &kp SPACE              &lt 1 TAB    &lt 2 BACKSPACE  &kp LEFT_SHIFT         &kp ENTER
+&kp GRAVE   &kp Q                &kp W                  &kp F              &kp P                  &kp B        &kp J            &kp L                  &kp U              &kp Y                   &kp SEMICOLON         &kp EQUAL
+&kp ESCAPE  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T  &kp G        &kp M            &hrm_r LEFT_COMMAND N  &hrm_r LEFT_ALT E  &hrm_r RIGHT_CONTROL I  &hrm_r RIGHT_SHIFT O  &kp SQT
+&caps_word  &kp Z                &kp X                  &kp C              &kp D                  &kp V        &kp K            &kp H                  &kp COMMA          &kp PERIOD              &kp SLASH             &kp MINUS
+                                                        &kp LEFT_CONTROL   &kp SPACE              &lt 1 TAB    &lt 2 BACKSPACE  &sk LEFT_SHIFT         &kp ENTER
             >;
         };
 
