@@ -190,6 +190,56 @@
             key-positions = <14 16 15>;
             timeout-ms = <30>;
         };
+
+        one {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <13 1>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <14 2>;
+        };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <15 3>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <4 16>;
+        };
+
+        five {
+            bindings = <&kp N5>;
+            key-positions = <5 17>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <6 18>;
+        };
+
+        seven {
+            bindings = <&kp N7>;
+            key-positions = <7 19>;
+        };
+
+        eight {
+            bindings = <&kp N8>;
+            key-positions = <20 8>;
+        };
+
+        nine {
+            bindings = <&kp N9>;
+            key-positions = <21 9>;
+        };
+
+        zero {
+            bindings = <&kp N0>;
+            key-positions = <22 10>;
+        };
     };
 
     behaviors {
