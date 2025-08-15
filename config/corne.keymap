@@ -415,10 +415,10 @@
             //                    | ESC | SPC | TAB |   | ENT | BKSP | DEL |
 
             bindings = <
-&kp GRAVE                      &kp Q                &kp W                  &kp F              &kp P                             &kp B        &kp J           &kp L                  &kp U              &kp Y                   &kp SEMICOLON         &kp EQUAL
-&ctrl_esc LEFT_CONTROL ESCAPE  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T             &kp G        &kp M           &hrm_r LEFT_COMMAND N  &hrm_r LEFT_ALT E  &hrm_r RIGHT_CONTROL I  &hrm_r RIGHT_SHIFT O  &kp SQT
-&caps_word                     &kp Z                &kp X                  &kp C              &kp D                             &kp V        &kp K           &kp H                  &kp COMMA          &kp PERIOD              &kp SLASH             &kp MINUS
-                                                                           &kp TAB            &sticky_tap_layer 1 LEFT_CONTROL  &kp SPACE    &sk LEFT_SHIFT  &lt 2 BACKSPACE        &kp ENTER
+&kp GRAVE   &kp Q                &kp W                  &kp F              &kp P                  &kp B        &kp J           &kp L                  &kp U              &kp Y                   &kp SEMICOLON         &kp EQUAL
+&kp ESCAPE  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL R  &hrm_l LEFT_ALT S  &hrm_l LEFT_COMMAND T  &kp G        &kp M           &hrm_r LEFT_COMMAND N  &hrm_r LEFT_ALT E  &hrm_r RIGHT_CONTROL I  &hrm_r RIGHT_SHIFT O  &kp SQT
+&caps_word  &kp Z                &kp X                  &kp C              &kp D                  &kp V        &kp K           &kp H                  &kp COMMA          &kp PERIOD              &kp SLASH             &kp MINUS
+                                                        &sk LEFT_CONTROL   &lt 1 TAB              &kp SPACE    &sk LEFT_SHIFT  &lt 2 BACKSPACE        &kp ENTER
             >;
         };
 
